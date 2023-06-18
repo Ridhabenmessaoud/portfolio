@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #181818;
+  font-family: "DM Sans", sans-serif;
+  color: white;
+}
+
+main,
+section,
+footer {
+  padding-left: 15rem;
+  padding-right: 15rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  transition: 0.2s all ease-in-out;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.page-container {
+  max-width: 250rem;
+  width: 100%;
+}
+
+.btn-main {
+  background-color: #27ae60;
+  color: white;
+  width: 14.3rem;
+  height: 4.2rem;
+  border: none;
+}
+
+.btn-2 {
+  width: 14.3rem;
+  height: 4.2rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.8rem 8rem;
+}
+
+.logo {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.header-right {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s all ease-in-out;
+}
+
+.link:hover {
+  border-bottom: 1px solid white;
+}
+
+.burger-container {
+  display: none;
+}
+
+.burger-icon {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+/* Main */
+
+.main-section {
+  padding-top: 12.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 1.8rem;
+  color: #828282;
+  font-weight: 500;
+  padding: 0.9rem 0 3.4rem 0;
+}
+
+.main-buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-img {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 50%;
+  padding: 2.6rem;
+  border: 1px solid #4f4f4f;
+  object-fit: cover;
+}
+
+/* About */
+
+.about {
+  margin-top: 4.7rem;
+}
+
+.about-title {
+  margin-bottom: 3.8rem;
+}
+
+.about-description {
+  width: 74.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2.4rem;
+}
+
+/* Info */
+
+.info-container {
+  width: 100%;
+  margin-top: 4.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green-circle {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50%;
+  background-color: #27ae60;
+  border: 2.5rem solid #212121;
+}
+
+.info-item-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.3rem;
+  margin: 1.8rem 0 0rem;
+}
+
+.info-item-description {
+  font-size: 1.8rem;
+}
+
+/* What I do */
+
+.what {
+  margin-top: 12rem;
+}
+
+.what-container {
+  margin-top: 10.2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.what-item {
+  width: 35rem;
+  height: 24rem;
+  padding: 3.5rem 7rem 3.6rem 5rem;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 5px solid transparent;
+  transition: 0.2s all ease-in-out;
+}
+
+.what-item:hover {
+  border-bottom: 5px solid #27ae60;
+}
+
+.what-item-title {
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #535353;
+}
+
+/* Skills */
+
+.skills {
+  margin-top: 13.3rem;
+}
+
+.skills-container {
+  width: 100%;
+  height: 23.5rem;
+  margin-top: 7.3rem;
+  background-color: #212121;
+  border: 1px solid #333;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.skills-percentage {
+  font-weight: 700;
+  font-size: 7.2rem;
+  color: #4f4f4f;
+}
+
+.skills-name {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: #27ae60;
+}
+
+/* Projects */
+
+.projects {
+  margin-top: 13.5rem;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  overflow-x: hidden;
+}
+
+.slider-btn {
+  background: transparent;
+  border: none;
+}
+
+.slider-btn-icon {
+  width: 3rem;
+  height: auto;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #212121;
+  height: 16rem;
+  width: 30rem;
+  flex: 0 0 33%;
+}
+
+.slide-title {
+  font-size: 3.6rem;
+  color: #4f4f4f;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.slide-title:hover {
+  color: white;
+}
+
+.slide-link-icon {
+  width: 3rem;
+  height: auto;
+}
+
+.slide-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Contact */
+
+.contact {
+  margin-top: 10rem;
+}
+
+form {
+  width: 75rem;
+  margin-top: 8.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  gap: 3.7rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  height: 5.2rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #4f4f4f;
+  color: white;
+}
+
+textarea {
+  height: 11rem;
+  border: 1px solid #4f4f4f;
+  resize: none;
+
+  display: flex;
+  align-items: flex-start;
+
+  padding: 1rem 0 0 1.2rem;
+}
+
+/* Scroll Top Button */
+
+.scroll-top-btn {
+  background-color: #212121;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+}
+
+.scroll-top-btn:hover {
+  transform: scale(1.2);
+}
+
+.scroll-top-icon {
+  width: 2.5rem;
+  height: auto;
+  transform: rotate(90deg);
+}
+
+/* footer */
+
+footer {
+  margin-top: 16rem;
+  text-align: center;
+  margin-bottom: 9.3rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #4f4f4f;
+}

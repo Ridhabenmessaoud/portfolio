@@ -1,0 +1,185 @@
+@media (max-width: 1400px) {
+  main,
+  section,
+  footer {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .main-section {
+    justify-content: space-around;
+  }
+  .main-img {
+    width: 40rem;
+    height: 40rem;
+  }
+
+  main,
+  section,
+  footer {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .what-item {
+    width: 32rem;
+    padding: 2.5rem;
+  }
+
+  .what-container {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1150px) {
+  .slide {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media (max-width: 1050px) {
+  html {
+    font-size: 56%;
+  }
+
+  .about-description {
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+  }
+
+  .skill-percentage {
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 970px) {
+  html {
+    font-size: 54%;
+  }
+  .what-item {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .what-container {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .main-img {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  h1 {
+    font-size: 3.1rem;
+  }
+
+  .skills-percentage {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-section {
+    padding-top: 3.8rem;
+    flex-direction: column-reverse;
+    gap: 3rem;
+  }
+
+  .main-left {
+    text-align: center;
+  }
+  .slide {
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .about-description {
+    width: 95%;
+  }
+
+  .info-container {
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  .info-item {
+    width: 16rem;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    gap: 3rem;
+    padding: 2rem 3rem;
+  }
+
+  form {
+    width: 95%;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .burger-container {
+    display: block;
+  }
+
+  .header-right-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  .link {
+    margin-top: 5rem;
+    font-size: 2.8rem;
+  }
+  .burger-open-icon {
+    position: fixed;
+    top: 4rem;
+    right: 6rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .input-container {
+    flex-direction: column;
+  }
+
+  .about-description {
+    font-size: 2rem;
+  }
+
+  textarea {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 450px) {
+  main,
+  section,
+  footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
